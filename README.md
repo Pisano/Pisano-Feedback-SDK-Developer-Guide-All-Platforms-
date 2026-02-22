@@ -822,13 +822,3 @@ Each platform reports status through callbacks. The table below maps the common 
 | Android | `co.pisano:feedback` | 1.3.28 | Gradle (Maven Central) |
 | React Native | `feedback-react-native-sdk` | 0.2.10 | npm / yarn |
 | Flutter | `feedback_flutter_sdk` | 0.0.17 | Git dependency (pubspec) |
-
-### Security reminders
-
-- **Never commit** `appId`, `accessKey`, or other credentials to source control.
-- Use local config files:
-  - iOS: `PisanoSecrets.plist` (gitignored)
-  - Android: `local.properties` (gitignored)
-  - React Native: `pisano.config.js` (gitignored)
-  - Flutter: `pisano_defines.json` (gitignored)
-- Each sample app repo includes an example config file you can copy and fill.
